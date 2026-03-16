@@ -1,0 +1,107 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* Hero Section */
+header#hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: #8b0000;
+  color: white;
+}
+
+.hero-banner {
+  width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #8b0000;
+  text-align: center;
+}
+
+/* Projects */
+.project-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  border-left: 5px solid #306998;
+  background: #e6f0f8; 
+}
+
+.project-card:hover {
+  transfor=m: translateY(-5px);
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0;
+  height: 500px;
+}
+
+/* Python Learning */
+.project-card.python-learning {
+  border-left: 5px solid #306998;
+  background: #e6f0f8;
+}
+
+/* Skills */
+ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  background: #8b0000;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+/* Contact */
+a {
+  color: #8b0000;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 10px;
+  background: #333;
+  color: white;
+  margin-top: 50px;
+}
+.hero-banner{
+  border-radius: 500px;
+  width: 200px;
+  height: 200px;
+}
